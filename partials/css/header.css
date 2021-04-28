@@ -1,0 +1,159 @@
+@import '../style.css';
+/* header */
+.top-line{
+    width: 100%;
+    height: 0.6rem;
+    background-color: var(--primary);
+    margin-bottom: 1rem;
+}
+nav{
+    height: 4rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0rem 4rem;
+}
+nav div.left button{
+    background-color: transparent;
+    border: none; 
+    padding: 1rem;
+    margin-right: 0.5rem;
+}
+nav div.left button i{
+    font-size: 2.5rem;
+    color: var(--primary);
+    font-weight: 700;
+}
+nav div.left a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 900;
+    padding: 1.2rem;
+    margin-right: 0.5rem;
+    font-family: 'Proza Libre', sans-serif;
+}
+nav div.left a span{
+    color: var(--primary);
+}
+nav div.left form{
+    padding: 0.8rem;
+    margin: auto;
+}
+nav div.left form div{
+    border-radius: 0.5rem;
+    background-color: var(--light);
+    padding: 0.1rem 0.6rem !important;
+    color: var(--grey);
+}
+nav div.left form div span{
+    padding: 0.5rem;
+}
+nav div.left form div span i{
+    font-size: 1.5rem;
+    color: inherit;
+}
+nav div.left form div input{
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: inherit;
+    width: 50rem;
+}
+nav div.left form div input:focus{
+    border: none;
+    outline: none;
+    color: var(--dark);
+}
+nav div.right button{
+    border: none !important;
+    background-color: transparent;
+    outline: none !important;
+    cursor: pointer;
+}
+.modal,.btn:focus{
+    outline:none!important
+}
+.modal .modal-header h5{
+    font-size: 2rem;
+    color: var(--primary);
+}
+.modal .modal-body form label{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.modal .modal-body form input{
+    padding: .7rem;
+    font-size: 1.4rem;
+}
+.modal .modal-body button, .modal .modal-footer button{
+    font-size: 1.4rem;
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    font-weight: 500;
+}
+.modal .modal-footer button.btn-secondary{
+    background-color: grey;
+}
+.modal div.form-floating{
+    height: 3rem;
+}
+nav div.right button:hover .i-h{
+    color: var(--dark);
+}
+nav div.right button i.fas{
+    margin-right: 0.7rem;
+    font-size: 1.8rem;
+    color: var(--grey);
+    transition: all .5s ease;
+
+}
+nav div.right button span{
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all .5s ease;
+
+}
+nav div.right a:hover .i-h{
+    color: var(--primary);
+}
+nav div.right a i.fas{
+    margin-right: 0.7rem;
+    font-size: 1.8rem;
+    color: var(--grey);
+    transition: all .5s ease;
+
+}
+nav div.right a span{
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: all .5s ease;
+    margin-right: 0.7rem;
+
+}
+nav div.right p{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+nav div.right{
+    display: flex;
+    align-items: center !important;
+}
+header{
+    padding-bottom: 0.1rem;
+    /* box-shadow: 0rem 0.1rem 0.5rem 0.2rem rgba(0,0,0,0.2); */
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6.5rem;
+    background-color: var(--pure);
+    z-index: 99;
+}

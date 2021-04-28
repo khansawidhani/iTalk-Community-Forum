@@ -1,0 +1,70 @@
+@import '../style.css';
+/* footer */
+footer.container-fluid{
+    background-color: #404040;
+    padding: 3rem 5rem;
+}
+div.footer{
+    padding: 0rem 8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+div.footer a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 900;
+    padding: 1.2rem;
+    margin-right: 2.5rem;
+    font-family: 'Proza Libre', sans-serif;
+    flex: 1;
+}
+div.footer a span{
+    color: var(--primary);
+}
+div.footer .copyright{
+    margin-right: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--grey);
+    flex: 3;
+}
+div.footer .copyright a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--grey);
+    font-weight: 400;
+    margin-right: 0rem;
+    padding: 0rem;
+
+}
+div.footer ul.social{
+    list-style-type: none;
+    margin-left: 0rem;
+    flex: 1;
+
+}
+div.footer ul.social li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+div.footer ul.social li a{
+    margin: 0;
+    margin-right: 0.7rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    transition: all .5s ease;
+}
+div.footer ul.social li a i{
+    color: var(--primary);
+    font-size: 2rem;
+
+}

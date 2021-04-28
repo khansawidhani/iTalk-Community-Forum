@@ -1,0 +1,219 @@
+@import '../style.css';
+/* Threads page */
+.jumbotron{
+    padding: 3rem 3rem;
+    margin-top: 0rem;
+  margin-bottom: 4rem;
+  background-color: #dee2e6;
+  border-radius: .3rem;
+  transition: all .5s ease-in-out;
+}
+.jumbotron p.lead{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0rem !important;
+}
+.jumbotron p.lead .btn-primary{
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+}
+.jumbotron p.disclaimer{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.jumbotron h1{
+margin-bottom: 1rem;
+}
+.jumbotron h1 span{
+    color: var(--primary);
+    font-weight: 400;
+}
+
+.main ._main{
+margin-left: 20rem;
+}
+div._main .banner-ad{
+    color: var(--primary);
+    margin-bottom: 5rem;
+    padding: 4rem 4rem;
+}
+div._main .heading-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+div._main h1.browse-heading{
+    color: var(--dark);
+    margin: 0 2rem;
+}
+div._main .threads{
+    margin: 2rem;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0, 0.5);
+}
+div._main .threads .thread-cat h3.th-cat{
+    background-color: var(--primary);
+    padding: 1rem 1rem 1rem 6rem;
+    font-weight: 600;
+    color: var(--pure);
+    margin: 0;
+}
+div._main .threads table tbody tr.question span{
+    width: 7rem;
+    height: auto;
+    padding: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div._main .threads table tbody tr.question span img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+div._main .threads table tbody tr.question td, div._main .threads table tbody tr.question th{
+    padding: 1rem;
+}
+div._main .threads table tbody tr.question td h3 a{
+    color: var(--primary);
+    text-decoration: none;
+}
+div._main .threads table tbody tr.question td p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--grey);
+
+}
+div._main .threads table tbody tr.question td p.posted a{
+    text-decoration: none;
+    color: var(--secondary);
+    text-transform: capitalize;
+    font-weight: 600;
+} 
+
+div._main p.btnadd{
+    display: flex;
+    justify-content: center;
+    margin: 0 3rem;
+}
+div._main p.btnadd button{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+div._main .collapse{
+    border: 1px solid transparent;
+}
+div._main .collapse .card{
+    background-color: var(--bglight) !important;
+    border: none;
+}
+div._main .collapse .card label{
+    font-weight: 500;
+}
+div._main .collapse .card input, div._main .collapse .card textarea{
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+    background-color: transparent;
+}
+div._main .collapse .card button{
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: var(--primary);
+    border: 1px solid transparent;
+
+}
+/* thread comments */
+div._main .comments{
+    margin-top: 2rem;
+    
+    margin-bottom: 6rem;
+    
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0, 0.5);
+}
+div._main .comments .comment{
+    padding: 0rem;
+    margin: 0rem;
+    color: var(--dark);
+    border-bottom: 1px solid rgba(180, 180, 180) !important;
+    
+}
+div._main .comments .comment span.img{
+    width: 7%;
+    height: auto;
+    padding: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(180, 180, 180) !important;
+}
+div._main .comments .comment span img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+div._main .comments .comment div{
+    width: 100%;
+    padding: 1rem;
+    
+}
+div._main .comments .comment div p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--grey);
+}
+/* Type comment */
+div._main .type-comment{
+    margin-bottom: 6rem;
+}
+div._main .type-comment form label{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+div._main div.type-comment form textarea{
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    /* background-color: transparent; */
+}
+div._main div.type-comment form button{
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+/* Search results page*/
+div._main .search{
+    margin: 2rem;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0, 0.5);
+}
+div._main .search table tbody tr.question td{
+    padding: 1rem;
+}
+div._main .search table tbody tr.question td h3 a{
+    color: var(--primary);
+    text-decoration: none;
+}
+div._main .search table tbody tr.question td p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--grey);
+
+}
+div._main .search table tbody tr.question td p.posted a{
+    text-decoration: none;
+    color: var(--secondary);
+    text-transform: capitalize;
+    font-weight: 600;
+} 
+
+
+
+

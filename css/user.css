@@ -1,0 +1,91 @@
+@import '../style.css';
+.user{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user .user-left{
+    padding: 1rem;
+    border-right: 1px solid grey;
+    padding-right: 2rem;
+    width: 25rem;
+}
+.user .user-left img{
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin: 0.5rem;
+    margin-bottom: 3rem;
+}
+.user .user-left .user-activity{
+    margin-bottom: 3.5rem;
+}
+.user .user-left .user-activity ul{
+    list-style: none;
+}
+.user .user-left .user-activity ul li{
+    padding-right: 1rem;
+}
+.user .user-left .user-data ul{
+    list-style: none;
+}
+.user .user-left .user-data ul li{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+.user .user-left .user-data ul li span.icon{
+    color: var(--primary);
+}
+.user .user-right{
+    padding-left: 4rem;
+    width: 60%;
+}
+.user .user-right h1{
+    color: var(--primary);
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.user .user-right p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.user .user-right .user-threads{
+    margin-bottom: 3rem;
+}
+.user .user-right .user-threads h2{
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+.user .user-right .user-threads table{
+    width: 100%;
+}
+.user .user-right .user-threads table tbody tr td.thread{
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--dark);
+    padding: 0.8rem 1.5rem;
+}
+
+.user .user-right .user-comments{
+    margin-bottom: 3rem;
+}
+.user .user-right .user-comments h2{
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+.user .user-right .user-comments table{
+    width: 100%;
+}
+.user .user-right .user-comments table tbody tr td.comments{
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--primary);
+    padding: 0.8rem 1.5rem;
+}

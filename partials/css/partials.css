@@ -1,0 +1,32 @@
+@import '../../style.css';
+/* utilities  */
+.border{
+    border:1px solid var(--dark);
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.text-prime{
+    color: var(--primary);
+}
+.text-second{
+    color: var(--secondary);
+}
+.flex-1{
+    flex: 1;
+}
+
+
+
+
+
+
